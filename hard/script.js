@@ -3,3 +3,24 @@
 // Create a single function that takes an input className and updates the body's classList to ONLY include that className
 
 // *Note: Check Canvas for the starter code needed for this exercise. The starter code will be located in a folder named hard_js. 
+
+
+let redBtn = document.querySelector(".bodyRed")
+let whiteBtn = document.querySelector(".bodyWhite")
+
+redBtn.addEventListener('click', redFunction)
+whiteBtn.addEventListener('click', whiteFunction)
+
+function redFunction() {
+    document.body.style.backgroundColor = "red";
+}
+
+function whiteFunction() {
+    document.body.style.backgroundColor = "white";
+}
+
+// function colorFunctions(className) {
+//     if(className == ".bodyRed"){
+//         document.body.style.backgroundColor = "red";
+//     }
+// }

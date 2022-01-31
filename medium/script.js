@@ -8,3 +8,31 @@
 // Example 2:
 // Input: nums = [4,5,6,7,0,1,2], target = 3
 // Output: -1.
+
+const nums = [4,5,6,7,0,1,2]
+
+// let number = nums.indexOf(nums)
+
+//     function findindex(){
+//         if (number !== nums){
+//             console.log(number)
+//         }else {
+//             console.log(`hello`)
+//         }
+//     }
+
+// findindex(0)
+
+
+
+function loopIndex(x){
+    for (i = 0; i < nums.length; i++){
+       if (x === x){
+            return nums.indexOf(x)
+       }else {
+           return false
+       }
+    }
+    return (x[i])
+}
+console.log(loopIndex(7))
