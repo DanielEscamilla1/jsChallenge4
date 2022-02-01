@@ -11,7 +11,28 @@
 // Output: -1
 
 // write a function to compute the fewest number of coins that you need to make up that amount
-// if that amount of moeny cannout be made by any combinatins of coins, return false
+// if that amount of money cannout be made by any combinatins of coins, return false
+
+// creating function with 2 parameters
+const coinFun = (coins, total) => {
+// adding an array
+let arr = []
+// adding for loop
+    for (i = 0; i < arr.length; i++){
+// adding conditons 
+        if (coins < total) {
+            x += arr[i]
+            x.push(arr)
+                
+        }else{
+            return false
+        }
+    }
+}
+// consoleloging test
+console.log(coinFun([1,2,5], 11))
+
+
 
 // let arr = [1, 2, 5]
 // const coinFun = ([], x){
@@ -25,7 +46,3 @@
 // }
 
 // console.log(coinFun(arr))
-
-let coinFun = () => {
-    
-}
