@@ -10,3 +10,22 @@
 // Input: coins = [2], amount = 3
 // Output: -1
 
+// write a function to compute the fewest number of coins that you need to make up that amount
+// if that amount of moeny cannout be made by any combinatins of coins, return false
+
+// let arr = [1, 2, 5]
+// const coinFun = ([], x){
+//     while (arr[i] != x) {
+//         if (arr[i] > x){
+//             arr[i] += x
+//     }else (arr[i] < x){
+//         return false
+//     }
+// }
+// }
+
+// console.log(coinFun(arr))
+
+let coinFun = () => {
+    
+}
